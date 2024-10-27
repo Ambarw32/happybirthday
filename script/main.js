@@ -25,11 +25,11 @@ const animationTimeline = () => {
     const textBoxChars = document.getElementsByClassName("hbd-chatbox")[0];
     const hbd = document.getElementsByClassName("wish-hbd")[0];
 
-    textBoxChars.innerHTML = `<span>${textBoxChars.innerHTML
+    textBoxChars.MelbaHTML = `<span>${textBoxChars.MelbaHTML
         .split("")
         .join("</span><span>")}</span>`;
 
-    hbd.innerHTML = `<span>${hbd.innerHTML
+    hbd.MelbaHTML = `<span>${hbd.MelbaHTML
         .split("")
         .join("</span><span>")}</span>`;
 
